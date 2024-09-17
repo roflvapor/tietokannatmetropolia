@@ -16,19 +16,20 @@ Ihan sama palautus, pitäisi olla täydet pisteet.
 
 Where-osan liitosehto harjoitukset:  
 
-![image](https://github.com/user-attachments/assets/866c3ef8-f835-418f-be42-5289038703f9)  
-Kysymykset joita järjestelmä ei hyväksyny:  
+![image](https://github.com/user-attachments/assets/866c3ef8-f835-418f-be42-5289038703f9)\
+Kysymykset joita järjestelmä ei hyväksyny:  \
 Kysymys 3: select country.name as "country_name", airport.name as "airport_name" from country, airport where country.iso_country = airport.iso_country and airport.continent ="AN" order by country.name ASC;  
 Melko sama palautus, en ole varmaa miten voi saada paremman tuloksen.  
 
 Join harjoitukset  
-![image](https://github.com/user-attachments/assets/69554717-3300-4b04-8ff9-9b84239ccbaf)  
+![image](https://github.com/user-attachments/assets/69554717-3300-4b04-8ff9-9b84239ccbaf)\
 
 Kysymykset joita järjestelmä ei hyväksyny:  
 Kysymys 4: select airport.name, screen_name from game right join airport on airport.ident = game.location where airport.name LIKE "%Hels%";  
 ![image](https://github.com/user-attachments/assets/2166583e-e1c9-4bd7-af91-57d865842e1c)  
-Yksi linja ero, ei voi tehdä paremmin
-Sisäkysely harjoitukset
+Yksi linja ero, ei voi tehdä paremmin  
+
+Sisäkysely harjoitukset:  
 ![image](https://github.com/user-attachments/assets/b23df9ea-5ab0-42ef-a40c-29abea74e427)   
 Kysymys 1: select country.name from country where name in( select name from airport where name like '%Satsuma%');   
 ![image](https://github.com/user-attachments/assets/5852a106-fb56-41e6-b8fb-a0bbb66004c0)    
