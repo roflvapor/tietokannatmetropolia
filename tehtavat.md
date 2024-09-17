@@ -33,7 +33,7 @@ tehtävä 1: select * from goal;
 ![image](https://github.com/user-attachments/assets/dd3b7999-710b-4db2-ad84-1f6972d64368)  
 
 tehtävä 2: 
-![image](https://github.com/user-attachments/assets/41a8f532-a770-49d7-91e4-44fc406197d6)  
+![image](https://github.com/user-attachments/assets/055749a2-cdb6-4d6a-a5c9-cc284ee28cbe)  
 SELECT name, airport_type FROM airport WHERE iso_country = "FI";  
 Ihan sama palautus, pitäisi olla täydet pisteet.  
 
