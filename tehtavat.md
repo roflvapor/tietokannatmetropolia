@@ -2,11 +2,11 @@ Relaatiotietokannan peruskäsitteiden harjoitukset:
 
 ![image](https://github.com/user-attachments/assets/4a65f5a6-96a6-463b-b262-95139b9fb99f)\
 Kysymykset joita järjestelmä ei hyväksyny:\
-Kysymys 8: char
-Kysymys 11: char
-Kysymys 13: description
-Kysymys 22: goal_id
-Kysymys 24: goal,game
+Kysymys 8: char  
+Kysymys 11: char  
+Kysymys 13: description  
+Kysymys 22: goal_id  
+Kysymys 24: goal,game  
 
 Yhteen tauluun kohdistuvien kyselyiden harjoitukset:  
 ![image](https://github.com/user-attachments/assets/266e1eb7-f28e-4b6c-b320-c4c6d4789048)  
