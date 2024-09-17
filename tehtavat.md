@@ -1,4 +1,4 @@
-Relaatiotietokannan peruskäsitteiden harjoitukset:
+Relaatiotietokannan peruskäsitteiden harjoitukset KAIKKI HYVÄKSYTTY:
 
 ![image](https://github.com/user-attachments/assets/f47fda4d-5346-4ae0-98df-46a556412db6)  
 ![image](https://github.com/user-attachments/assets/7dee9049-7a3d-4394-8cb9-3e0b95e6b234)
