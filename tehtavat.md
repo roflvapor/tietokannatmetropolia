@@ -30,42 +30,47 @@ Relaatiotietokannan peruskäsitteiden harjoitukset KAIKKI HYVÄKSYTTY:
 
 Yhteen tauluun kohdistuvien kyselyiden harjoitukset:  
 tehtävä 1: select * from goal;  
-![image](https://github.com/user-attachments/assets/dd3b7999-710b-4db2-ad84-1f6972d64368)  
+![image](https://github.com/user-attachments/assets/dc552241-f401-4e0f-b4cb-6ea863247cfc)  
+
 
 tehtävä 2: 
-![image](https://github.com/user-attachments/assets/055749a2-cdb6-4d6a-a5c9-cc284ee28cbe)  
+![image](https://github.com/user-attachments/assets/944ab313-df72-4e9e-853a-64482e893ee0)  
+
 SELECT name, airport_type FROM airport WHERE iso_country = "FI";  
 Ihan sama palautus, pitäisi olla täydet pisteet.  
 
 tehtävä 3:  
-![image](https://github.com/user-attachments/assets/14bbbbfc-5b4a-4271-bcba-83dece3c47a1)  
+![image](https://github.com/user-attachments/assets/62a4a0d0-6792-4728-8514-e20c98997a37)  
+
 select name from airport where iso_country = "FI" order by name asc;
 
 tehtävä 4:
-![image](https://github.com/user-attachments/assets/9ea7ff0e-ec49-412d-a948-0a7c6df10edc)  
+![image](https://github.com/user-attachments/assets/eba2d42b-515a-4b4d-87ec-9f81acbc35f4)  
+
 select name as type FROM airport WHERE iso_country = "FI" order by type asc, name asc;
 
 tehtävä 5: 
-![image](https://github.com/user-attachments/assets/fca847f2-cfe7-4421-918a-ebed65bce65a)  
+![image](https://github.com/user-attachments/assets/d6083dee-afbb-43b1-9feb-b984487749e6)  
+
 select name from country where name like "F%";  
 
 tehtävä 6: 
-![image](https://github.com/user-attachments/assets/152f5160-b709-4899-8189-0b7c6731a2dc)  
+![image](https://github.com/user-attachments/assets/d52bda0c-225f-4aaa-a76c-5d3323f69aa5)  
 select name from country where name like "%F%";  
 
 tehtävä 7:  
-![image](https://github.com/user-attachments/assets/61163800-4bda-48a2-ad52-47768efb222b)
-select location from game where screen_name ="Vesa";
+![image](https://github.com/user-attachments/assets/1457f4db-7465-4fe0-82e1-230963987561)  
+select location from game where screen_name ="Vesa";  
 
 
 tehtävä 8:
-![image](https://github.com/user-attachments/assets/c3443f27-b971-4324-bf8d-dc9935ad6351)  
+![image](https://github.com/user-attachments/assets/1645c56a-77df-4b34-b9d5-d7378715b654)  
 select co2_consumed from game where screen_name ="Ilkka";  
 
 
 tehtävä 9:
-![image](https://github.com/user-attachments/assets/ae118faf-2653-4361-9f79-1d2f304102e1)  
-select distinct co2_budget from game;
+![image](https://github.com/user-attachments/assets/bb97069b-d603-456e-a89c-b954de02a5c3)  
+select distinct co2_budget from game;  
 
 
 Where-osan liitosehto harjoitukset:  
