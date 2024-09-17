@@ -1,4 +1,4 @@
-Relaatiotietokannan peruskäsitteiden harjoitukset:
+![image](https://github.com/user-attachments/assets/32853af3-1db8-4bba-bcd7-c875303fe55c)![image](https://github.com/user-attachments/assets/d1b5f40e-153f-4227-94d8-45b9d86860bf)Relaatiotietokannan peruskäsitteiden harjoitukset:
 
 ![image](https://github.com/user-attachments/assets/f47fda4d-5346-4ae0-98df-46a556412db6)  
 ![image](https://github.com/user-attachments/assets/7dee9049-7a3d-4394-8cb9-3e0b95e6b234)
@@ -29,15 +29,89 @@ Relaatiotietokannan peruskäsitteiden harjoitukset:
 
 
 Yhteen tauluun kohdistuvien kyselyiden harjoitukset:  
+tehtävä 1: select * from goal;  
+![image](https://github.com/user-attachments/assets/dd3b7999-710b-4db2-ad84-1f6972d64368)  
 
-![image](https://github.com/user-attachments/assets/266e1eb7-f28e-4b6c-b320-c4c6d4789048)  
-Kysymykset joita järjestelmä ei hyväksyny:  
-Kysymys 2: SELECT name, airport_type FROM airport WHERE iso_country = "FI";  
+tehtävä 2: 
+![image](https://github.com/user-attachments/assets/41a8f532-a770-49d7-91e4-44fc406197d6)  
+SELECT name, airport_type FROM airport WHERE iso_country = "FI";  
 Ihan sama palautus, pitäisi olla täydet pisteet.  
 
-Where-osan liitosehto harjoitukset:  
+tehtävä 3:  
+![image](https://github.com/user-attachments/assets/14bbbbfc-5b4a-4271-bcba-83dece3c47a1)  
+select name from airport where iso_country = "FI" order by name asc;
 
-![image](https://github.com/user-attachments/assets/866c3ef8-f835-418f-be42-5289038703f9)\
+tehtävä 4:
+![image](https://github.com/user-attachments/assets/9ea7ff0e-ec49-412d-a948-0a7c6df10edc)  
+select name as type FROM airport WHERE iso_country = "FI" order by type asc, name asc;
+
+tehtävä 5: 
+![image](https://github.com/user-attachments/assets/fca847f2-cfe7-4421-918a-ebed65bce65a)  
+select name from country where name like "F%";  
+
+tehtävä 6: 
+![image](https://github.com/user-attachments/assets/152f5160-b709-4899-8189-0b7c6731a2dc)  
+select name from country where name like "%F%";  
+
+tehtävä 7:  
+![image](https://github.com/user-attachments/assets/61163800-4bda-48a2-ad52-47768efb222b)
+select location from game where screen_name ="Vesa";
+
+
+tehtävä 8:
+![image](https://github.com/user-attachments/assets/c3443f27-b971-4324-bf8d-dc9935ad6351)  
+select co2_consumed from game where screen_name ="Ilkka";  
+
+
+tehtävä 9:
+![image](https://github.com/user-attachments/assets/ae118faf-2653-4361-9f79-1d2f304102e1)  
+select distinct co2_budget from game;
+
+
+Where-osan liitosehto harjoitukset:  
+![image](https://github.com/user-attachments/assets/d10247d8-2f31-435f-b126-e7a68b26d64c)  
+tehtävä 1:  
+![image](https://github.com/user-attachments/assets/1d94b3b2-c1f5-43a5-abb5-3378ce7cd795)  
+select country.name as "country name", airport.name as "airport name" from country, airport where country.iso_country = airport.iso_country and country.name ="Iceland";  
+
+tehtävä 2:  
+![image](https://github.com/user-attachments/assets/41f00011-256e-446e-a638-dbe624d6469c)  
+select airport.name as "airport name" from country, airport where country.iso_country = airport.iso_country and airport.type = "large_airport" and country.name ="France";
+
+tehtävä 3:  
+![image](https://github.com/user-attachments/assets/c6ed592e-0033-4c14-b905-178492da93cd)
+select country.name as "country_name", airport.name as "airport_name" from country, airport where country.iso_country = airport.iso_country and airport.continent ="AN" order by country.name ASC;
+
+tehtävä 4:  
+select airport.elevation_ft from airport, game where game.location = ident and game.screen_name = "Heini";  
+![image](https://github.com/user-attachments/assets/d92950be-fd77-46f9-8c2a-05de787b0b50)  
+
+tehtävä 5:  
+select airport.elevation_ft*0.3048 as elevation_m from airport, game where game.location = ident and game.screen_name = "Heini";  
+![image](https://github.com/user-attachments/assets/873d4e23-8827-4a61-b068-462ed611588c)  
+
+tehtävä 6:  
+![image](https://github.com/user-attachments/assets/79edf998-773c-4d7f-8a93-5142fe6f31aa)  
+select airport.name from airport, game where game.location = ident and game.screen_name = "Ilkka";  
+
+tehtävä 7:  
+![image](https://github.com/user-attachments/assets/c2768a36-32e8-41ef-b8f5-16273389e067)  
+select country.name as name from country, airport, game where game.location = ident and country.iso_country = airport.iso_country and game.screen_name = "Ilkka";
+
+tehtävä 8:  
+![image](https://github.com/user-attachments/assets/67baf034-cc07-4a7f-93d3-d782405d6e61)  
+select goal.name as name from goal, goal_reached, game where goal.id = goal_reached.goal_id and goal_reached.game_id = game.id and game.screen_name = "Heini";  
+
+tehtävä 9:  
+![image](https://github.com/user-attachments/assets/bb3b2f5b-240c-4263-b9a8-b8428692e90e)  
+select airport.name as name from airport, goal, goal_reached, game where goal.id = goal_reached.goal_id and goal_reached.game_id = game.id and game.location = airport.ident and game.screen_name = "Ilkka";  
+
+tehtävä 10:  
+![image](https://github.com/user-attachments/assets/1a578a8f-9dec-4b3a-91c4-16fc5fa63a44)  
+select country.name as name from country, airport, goal, goal_reached, game where goal.id = goal_reached.goal_id and goal_reached.game_id = game.id and game.location = airport.ident and country.iso_country = airport.iso_country and game.screen_name = "Ilkka";  
+
+
+
 Kysymykset joita järjestelmä ei hyväksyny:  \
 Kysymys 3: select country.name as "country_name", airport.name as "airport_name" from country, airport where country.iso_country = airport.iso_country and airport.continent ="AN" order by country.name ASC;  
 Melko sama palautus, en ole varmaa miten voi saada paremman tuloksen.  
