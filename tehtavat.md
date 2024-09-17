@@ -43,3 +43,9 @@ Kysymys 5: select game.screen_name from game where id not in( select goal.id fro
 Samat koodit mutta ei hyväksy.    
 
 
+![image](https://github.com/user-attachments/assets/b933980d-afc8-4dc2-b176-e25294731420)  
+
+![image](https://github.com/user-attachments/assets/2725f803-268f-4a93-a27b-02e7358ff957)
+
+
+
