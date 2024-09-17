@@ -1,12 +1,32 @@
 Relaatiotietokannan peruskäsitteiden harjoitukset:
 
-![image](https://github.com/user-attachments/assets/4a65f5a6-96a6-463b-b262-95139b9fb99f)\
-Kysymykset joita järjestelmä ei hyväksyny:\
-Kysymys 8: char  
-Kysymys 11: char  
-Kysymys 13: description  
-Kysymys 22: goal_id  
-Kysymys 24: goal,game  
+![image](https://github.com/user-attachments/assets/f47fda4d-5346-4ae0-98df-46a556412db6)  
+![image](https://github.com/user-attachments/assets/7dee9049-7a3d-4394-8cb9-3e0b95e6b234)
+![image](https://github.com/user-attachments/assets/473a3f4d-0731-42c1-98cc-a01afe3659fc)
+![image](https://github.com/user-attachments/assets/205c0d41-7166-4653-99fa-ecd583b4d8f6)
+![image](https://github.com/user-attachments/assets/69958bdb-f560-4dc6-a999-676652029534)
+![image](https://github.com/user-attachments/assets/386d40c9-f31b-46be-9e18-d9fe058fa5b7)
+![image](https://github.com/user-attachments/assets/cb41ed04-469e-458f-aa60-d1eae828098e)
+![image](https://github.com/user-attachments/assets/817492a5-2c76-4d89-b07c-4ccaa90dd258)
+![image](https://github.com/user-attachments/assets/9815694f-370c-452c-9e05-a7e82a344818)
+![image](https://github.com/user-attachments/assets/47bbd369-02d0-450a-ad6d-df1cc945cac2)
+![image](https://github.com/user-attachments/assets/5d62a2ef-041a-494b-a3e3-9ad8f18b8cb8)
+![image](https://github.com/user-attachments/assets/3fc47793-911e-4e05-937d-0107209c61a5)
+![image](https://github.com/user-attachments/assets/19be4666-f319-434f-82eb-bc952620bc8b)
+![image](https://github.com/user-attachments/assets/bba6484a-2f0d-419f-9c97-9bb55fc2e72a)
+![image](https://github.com/user-attachments/assets/40601c0d-c6dc-46b9-bbb7-0b10140c8bc1)
+![image](https://github.com/user-attachments/assets/34d36500-650d-49e7-a8ca-17a8e581aad0)
+![image](https://github.com/user-attachments/assets/1c6878cb-38e3-406d-adff-2f02aee979ed)
+![image](https://github.com/user-attachments/assets/7a08241d-5c2e-4885-a0ec-200f39b3c159)
+![image](https://github.com/user-attachments/assets/c679a585-130f-43aa-9817-f630a1fe8d0e)
+![image](https://github.com/user-attachments/assets/98c3660b-0774-4922-aa21-916f2e1173cc)
+![image](https://github.com/user-attachments/assets/57b0b81e-f824-42f7-a163-0de858f039b1)
+![image](https://github.com/user-attachments/assets/d9721225-f130-40c2-8f6d-824f80f45c7a)
+![image](https://github.com/user-attachments/assets/2d5acce8-7a0b-48f3-a891-0dcdc38f2763)
+![image](https://github.com/user-attachments/assets/2a5d7869-8324-479e-8b0c-0b74417aaae6)
+![image](https://github.com/user-attachments/assets/033846bc-1d77-4218-9eb6-e4e33adbed69)
+![image](https://github.com/user-attachments/assets/b18ef81b-11a6-4805-b6a9-3399355e1d93)
+
 
 Yhteen tauluun kohdistuvien kyselyiden harjoitukset:  
 
