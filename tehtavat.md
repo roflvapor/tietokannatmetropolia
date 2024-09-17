@@ -1,7 +1,7 @@
 Relaatiotietokannan peruskäsitteiden harjoitukset:
 
-![image](https://github.com/user-attachments/assets/4a65f5a6-96a6-463b-b262-95139b9fb99f)
-Kysymykset joita järjestelmä ei hyväksyny:
+![image](https://github.com/user-attachments/assets/4a65f5a6-96a6-463b-b262-95139b9fb99f)\
+Kysymykset joita järjestelmä ei hyväksyny:\
 Kysymys 8: char
 Kysymys 11: char
 Kysymys 13: description
