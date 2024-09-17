@@ -9,6 +9,7 @@ Kysymys 22: goal_id
 Kysymys 24: goal,game  
 
 Yhteen tauluun kohdistuvien kyselyiden harjoitukset:  
+
 ![image](https://github.com/user-attachments/assets/266e1eb7-f28e-4b6c-b320-c4c6d4789048)  
 Kysymykset joita järjestelmä ei hyväksyny:  
 Kysymys 2: SELECT name, airport_type FROM airport WHERE iso_country = "FI";  
