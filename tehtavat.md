@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/32853af3-1db8-4bba-bcd7-c875303fe55c)![image](https://github.com/user-attachments/assets/d1b5f40e-153f-4227-94d8-45b9d86860bf)Relaatiotietokannan peruskäsitteiden harjoitukset:
+Relaatiotietokannan peruskäsitteiden harjoitukset:
 
 ![image](https://github.com/user-attachments/assets/f47fda4d-5346-4ae0-98df-46a556412db6)  
 ![image](https://github.com/user-attachments/assets/7dee9049-7a3d-4394-8cb9-3e0b95e6b234)
